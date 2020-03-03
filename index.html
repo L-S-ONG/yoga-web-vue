@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>projectyoga</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+    <style>
+      /* CSS used here will be applied after bootstrap.css */
+      .jumbotron {
+        position: relative!important;
+        overflow: hidden!important;
+        background-color:black!important;
+        height: 94.1vh!important;
+        margin-bottom: 0px!important;
+      }
+      .jumbotron video {
+        /*  making the video fullscreen  */
+        position: absolute!important;
+        right: 0!important; 
+        bottom: 0!important;
+        min-width: 100%!important; 
+        min-height: 100%!important;
+        width: auto!important; 
+        height: auto!important;
+        opacity: 0.5!important;
+      }
+      .jumbotron .container {
+        z-index: 2!important;
+        position: relative!important;
+        color:white!important;
+        margin-top:auto!important;
+        margin-bottom:auto!important;
+      }
+      @media (min-width:1200px){
+        .container {
+            width:1400px!important
+        }
+        .containerAlignment {
+          display: flex!important;
+          justify-content: center!important;
+          align-items: center!important;
+        }
+      }
+      .vertical-center {
+        min-height: 100%!important;  /* Fallback for browsers do NOT support vh unit */
+        min-height: 94vh!important; /* These two lines are counted as one :-)       */
+
+        display: flex!important;
+        align-items: center!important;
+      }
+      h1 { font-family: Raleway!important; font-size: 24px!important; font-style: normal!important; font-variant: normal!important; font-weight: 700!important; line-height: 60px!important; } h3 { font-family: Raleway!important; font-size: 14px!important; font-style: normal!important; font-variant: normal!important; font-weight: 700!important; line-height: 15.4px!important; } p { font-family: Raleway; font-size: 14px!important; font-style: normal!important; font-variant: normal!important; font-weight: 400!important; line-height: 20px!important; } blockquote { font-family: Raleway!important; font-size: 21px!important; font-style: normal!important; font-variant: normal!important; font-weight: 400!important; line-height: 30px!important; } pre { font-family: Raleway!important; font-size: 13px!important; font-style: normal!important; font-variant: normal!important; font-weight: 400!important; line-height: 18.5714px!important; }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script>
+      $('#datetimepicker3').datetimepicker({
+        format: 'LT'
+      });
+    </script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/6.2.4/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+  </body>
+</html>
