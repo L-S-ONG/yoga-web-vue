@@ -22,4 +22,3 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 =======
 # yoga-web-vue
->>>>>>> 59227bef0143c934e6563ac7bf2bfea7756d3abf
